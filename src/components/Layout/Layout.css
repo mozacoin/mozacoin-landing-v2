@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero {
+    background-image: linear-gradient(0deg, rgba(255, 253, 249, 0.3) 30%, rgb(255, 253, 249) 95%);
+}
+
+.box-one {
+    background: linear-gradient(142.53deg, #00a295, #26e8f4 98.75%), #3dcda7;
+    border-radius: 8px;
+}
+
+.box-two {
+    background: linear-gradient(321.82deg, #21f2ff, #4181ff 59.22%, #4475ff 98.02%), #7196ff;
+    border-radius: 8px;
+}
+
+.box-three {
+    background: linear-gradient(138.46deg, #3e70ff 1.48%, #9a98ff 98.75%), #ff73fa;
+    border-radius: 8px;
+}
+
+.box-four {
+    background: linear-gradient(141.85deg, #7e7bff, #ff73fa);
+    border-radius: 8px;
+}
+
+.box-five {
+    background: linear-gradient(141.48deg, #f837ee 1.35%, #ffcd4b);
+    border-radius: 8px;
+}
+
+.box-six {
+    background: linear-gradient(321.73deg, #ffcd4b -1.09%, #ee6315 100.65%);
+    border-radius: 8px;
+}
+
+.cta-bg {
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+}

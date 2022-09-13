@@ -11,6 +11,7 @@
  
  import Header from "../Header/Header"
  import Footer from "../Footer/Footer"
+ import CTA from "../CTA/CTA"
  
  const Layout = ({ children }) => {
  
@@ -25,13 +26,16 @@
    `)
  
      return (
-         <div>
-             <Header siteTitle={data.site.siteMetadata.title} />
-             <main >
-                 {children}
-             </main>
-             <Footer />
-         </div>
+      <div>
+        <Header siteTitle={data.site.siteMetadata.title} />
+        <div className="space-y-8">
+          <main >
+              {children}
+          </main>
+          <CTA />
+          <Footer />
+        </div>
+      </div>
      )
  }
  

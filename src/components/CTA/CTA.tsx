@@ -2,8 +2,8 @@ import React from "react";
 
 const CTA = () => (
 	<div className="min-w-full">
-		<div className="mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
-			<div className="flex flex-col max-w-screen-lg overflow-hidden bg-white border rounded shadow-sm lg:flex-row sm:mx-auto">
+		<div className="mx-auto px-2 sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
+			<div className="flex flex-col max-w-screen-lg overflow-hidden bg-white border rounded shadow-sm lg:flex-row min-w-full">
 				<div className="relative lg:w-1/2">
 					<img
 						src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
@@ -22,7 +22,7 @@ const CTA = () => (
 					<div className="text-left text-teal-900 text-md font-normal mb-4">
 						Save it, spend it, send it. It’s up to you.
 					</div>
-					<h5 className="mb-3 text-2xl font-extrabold leading-none sm:text-4xl space-y-3">
+					<h5 className="mb-3 text-2xl font-extrabold leading-none sm:text-4xl space-y-3 sm:leading-relaxed">
 						What are you waiting for? Get started today!
 					</h5>
 					<p className="mb-5 text-gray-800">
@@ -31,15 +31,15 @@ const CTA = () => (
 						make sure it’s done better and hassle-free.
 					</p>
 
-					<div className="mb-10 max-w-sm mx-auto lg:mx-0 flex space-x-4">
+					<div className="mb-6 max-w-sm mx-auto lg:mx-0 flex space-x-4">
 						<a href="/android">
 							<span className="inline-flex rounded-md shadow-sm">
-								<a
-									href="https://web.mozacoin.com/auth/signup"
-									className="whitespace-no-wrap inline-flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded text-white bg-green-600 hover:bg-green-500 focus:outline-none focus:shadow-outline-none transition ease-in-out duration-150"
+							<a
+								href="https://web.mozacoin.com/auth/signup"
+								className="whitespace-no-wrap inline-flex items-center justify-center px-6 py-2 border border-transparent text-medium leading-6 font-medium rounded text-white bg-green-600 hover:bg-green-500 focus:outline-none focus:shadow-outline-none transition ease-in-out duration-150"
 								>
-									Get Started
-								</a>
+								Join waitlist
+							</a>
 							</span>
 						</a>
 					</div>

@@ -5,7 +5,7 @@ import React from "react";
 import logo from "../../assets/images/mozacoin.png";
 
 const Footer = () => (
-	<div className="container px-4 sm:px-12 flex mx-auto sm:mt-12">
+	<div className="container px-2 sm:px-12 flex mx-auto sm:mt-12">
 		<div className="pb-0 pt-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
 			<div className="grid gap-16 row-gap-10 mb-8 lg:grid-cols-6">
 				<div className="md:max-w-md lg:col-span-2">
