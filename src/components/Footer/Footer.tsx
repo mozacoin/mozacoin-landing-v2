@@ -7,7 +7,7 @@ import logo from "../../assets/images/mozacoin.png";
 const Footer = () => (
 	<div className="container px-2 sm:px-12 flex mx-auto sm:mt-12">
 		<div className="pb-0 pt-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
-			<div className="grid gap-16 row-gap-10 mb-8 lg:grid-cols-6">
+			<div className="grid gap-16 row-gap-10 mb-4 lg:grid-cols-6">
 				<div className="md:max-w-md lg:col-span-2">
 					<a
 						href="/"
@@ -27,8 +27,11 @@ const Footer = () => (
 							<p className="font-semibold tracking-wide text-gray-800">
 								Feel free to reach us on
 							</p>
-							<div className="space-y-1">
-								<p>contact@mozacoin.com</p>
+							<div className="space-y-1 text-sm">
+								<div className="mb-4">
+									809, 1007 N Orange St. 4th Floor , Wilmington, DE, New Castle, US, 19801
+								</div>
+								<a href="mailto:contact@mozacoin.com">contact@mozacoin.com</a>
 							</div>
 						</p>
 					</div>

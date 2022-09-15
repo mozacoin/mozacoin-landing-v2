@@ -35,9 +35,10 @@ const CTA = () => (
 						<a href="/android">
 							<span className="inline-flex rounded-md shadow-sm">
 							<a
-								href="https://web.mozacoin.com/auth/signup"
+								href="https://41byx79ff60.typeform.com/to/hk8Buuer"
+								target="_blank"
 								className="whitespace-no-wrap inline-flex items-center justify-center px-6 py-2 border border-transparent text-medium leading-6 font-medium rounded text-white bg-green-600 hover:bg-green-500 focus:outline-none focus:shadow-outline-none transition ease-in-out duration-150"
-								>
+							>
 								Join waitlist
 							</a>
 							</span>
